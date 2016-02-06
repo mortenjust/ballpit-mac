@@ -7,9 +7,19 @@
 //
 
 import Cocoa
+import SpriteKit
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var sceneView: SKView!
+    
+    override func viewWillAppear() {
+        print("will appear")
+        let scene = BallScene()
+        scene.size = self.view.bounds.size
+        sceneView.presentScene(scene)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

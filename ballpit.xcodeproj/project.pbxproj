@@ -11,6 +11,8 @@
 		C800BBD81C656DA00087E200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800BBD71C656DA00087E200 /* ViewController.swift */; };
 		C800BBDA1C656DA00087E200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C800BBD91C656DA00087E200 /* Assets.xcassets */; };
 		C800BBDD1C656DA00087E200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C800BBDB1C656DA00087E200 /* Main.storyboard */; };
+		C800BBE51C656DBD0087E200 /* BallScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C800BBE41C656DBD0087E200 /* BallScene.sks */; };
+		C87698AC1C65798500A637DC /* BallScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87698AB1C65798500A637DC /* BallScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		C800BBD91C656DA00087E200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C800BBDC1C656DA00087E200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C800BBDE1C656DA00087E200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C800BBE41C656DBD0087E200 /* BallScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BallScene.sks; path = ../BallScene.sks; sourceTree = "<group>"; };
+		C87698AB1C65798500A637DC /* BallScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallScene.swift; sourceTree = "<group>"; };
+		C87698AD1C6581C600A637DC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +57,13 @@
 		C800BBD41C656DA00087E200 /* ballpit */ = {
 			isa = PBXGroup;
 			children = (
+				C800BBE41C656DBD0087E200 /* BallScene.sks */,
+				C87698AD1C6581C600A637DC /* MyPlayground.playground */,
 				C800BBD51C656DA00087E200 /* AppDelegate.swift */,
 				C800BBD71C656DA00087E200 /* ViewController.swift */,
 				C800BBD91C656DA00087E200 /* Assets.xcassets */,
 				C800BBDB1C656DA00087E200 /* Main.storyboard */,
+				C87698AB1C65798500A637DC /* BallScene.swift */,
 				C800BBDE1C656DA00087E200 /* Info.plist */,
 			);
 			path = ballpit;
@@ -120,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C800BBDA1C656DA00087E200 /* Assets.xcassets in Resources */,
+				C800BBE51C656DBD0087E200 /* BallScene.sks in Resources */,
 				C800BBDD1C656DA00087E200 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C800BBD81C656DA00087E200 /* ViewController.swift in Sources */,
+				C87698AC1C65798500A637DC /* BallScene.swift in Sources */,
 				C800BBD61C656DA00087E200 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +283,7 @@
 				C800BBE31C656DA00087E200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
